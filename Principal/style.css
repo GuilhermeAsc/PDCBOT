@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Amazon Ember Regular';
+    background: url(https://i.pinimg.com/originals/4a/94/26/4a94268541d7a0ed95a8be5138e8a288.jpg)
+}
+li{
+    list-style: none;
+}
+#page-wrapper{
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: black ;
+    font-family: 'Amazon Ember Regular', sans-serif;
+}
+.logo{
+    width: 60vw;
+}
+.logo > img{
+    width: 100%;
+    height: 100%;
+    max-width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+header{
+    display: flex;
+    padding: 0 80px;
+    justify-content: center;
+    align-items: center;
+    min-height: 75px;
+    top: 0;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(223,223,255,1) 3%, rgba(217,217,233,1) 6%, rgba(144,158,161,1) 51%);;
+}
+nav{
+    font-weight: 400;
+}
+.nav-link{
+    display: inline-flex;
+    cursor: pointer;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0 15px;
+    font-size: large;
+    
+}
+#botao{
+    
+    box-shadow: none;
+    padding: 0 18px;
+    background-color: rgb(1, 118, 214);
+    border-radius: 10px;
+    height: 30px;
+    font-size: 20px;
+    
+}
+#botao:hover{
+    background-color: rgb(7, 143, 255);
+    cursor: pointer;
+    
+    
+} 
+h2{
+    left: 43px;
+    margin-top: 50px;
+    display: flex;
+    font-size: 50px ;
+    color: rgba(223,223,255,1) ;
+    position: relative;
+}
+#paragrafo{
+    padding-left: 43px;
+    margin-top: 20px;
+    font-size: 23px;
+    color: rgba(223,223,255,1);
+    justify-content: space-around;
+}
+.botaozao{
+    position: relative;
+    flex-direction: column;
+    margin-top: 55px;
+    justify-content: space-around;
+    border: 15px;
+    border-radius: 60px;
+    font-size: 40px;
+    height: 70px;
+    width: 15%;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    left: 43px;
+}
+.botaozao:hover{
+    background-color: rgb(199, 194, 174);
+
+}
+footer{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(223,223,255,1) 3%, rgba(217,217,233,1) 6%, rgba(144,158,161,1) 51%);
+    margin-top: 555px; 
+}
+#isso{
+    
+    width: 100%;
+    padding-left: 1rem;
+    margin-bottom: 15px;
+}
+.lista{
+    display: inline-flex;
+    cursor: pointer;
+    justify-content: space-around;
+    padding: 0 15px;
+    font-size: large;
+    width: 25vw;
+}
+@media (max-width: 650px) {
+    
+    
+}
