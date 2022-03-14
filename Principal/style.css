@@ -123,7 +123,43 @@ footer{
     font-size: large;
     width: 25vw;
 }
-@media (max-width: 650px) {
-    
-    
+@media s20, (max-width: 700px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .cabecalho{
+        width: 500px;
+    }
+    .logo{
+        width: 170px;
+        height: 70px;
+        padding-right: 50px;
+    }
+    #nav-bar    {
+        font-size: 10px;
+        display: inline-flex;
+        right: 30px;
+        width: 120px;
+    }   
+   #botao{
+       height: 20px;
+       font-size: 15px;
+       padding: 0 10px;
+       padding-bottom: 20px;
+
+   }
+   h2{
+       font-size: 45px;
+   }
+   #paragrafo{
+       font-size: 25px
+}
+.botaozao{
+    height: 75px;
+    width: 160px;
+    font-size: 22px;
+    padding-top: 20px ;
+}
 }
