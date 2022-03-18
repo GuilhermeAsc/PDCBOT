@@ -1,0 +1,23 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: 'Exo 2', sans-serif;
+    list-style: none;
+}
+h2{
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem ;
+    color: antiquewhite;
+    text-shadow: 2.5rem;
+}
+#login, #senha {
+    text-align: center;
+    font-size: 1.2rem ;
+    color: antiquewhite;
+}
