@@ -5,7 +5,8 @@
 }
 body{
     font-family: 'Amazon Ember Regular';
-    background: url(https://i.pinimg.com/originals/4a/94/26/4a94268541d7a0ed95a8be5138e8a288.jpg)
+    background: url(https://i.pinimg.com/originals/4a/94/26/4a94268541d7a0ed95a8be5138e8a288.jpg);
+    width: 1824px;
 }
 li{
     list-style: none;
@@ -56,7 +57,7 @@ nav{
 }
 #botao{
     
-    box-shadow: none;
+    
     padding: 0 18px;
     background-color: rgb(1, 118, 214);
     border-radius: 10px;
@@ -106,7 +107,7 @@ h2{
 }
 footer{
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(223,223,255,1) 3%, rgba(217,217,233,1) 6%, rgba(144,158,161,1) 51%);
-    margin-top: 555px; 
+    margin-top: 537px;
     width: 103%;
 }
 #isso{
@@ -122,44 +123,4 @@ footer{
     padding: 0 15px;
     font-size: large;
     width: 25vw;
-}
-@media s20, (max-width: 700px){
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    .cabecalho{
-        width: 500px;
-    }
-    .logo{
-        width: 170px;
-        height: 70px;
-        padding-right: 50px;
-    }
-    #nav-bar    {
-        font-size: 10px;
-        display: inline-flex;
-        right: 30px;
-        width: 120px;
-    }   
-   #botao{
-       height: 20px;
-       font-size: 15px;
-       padding: 0 10px;
-       padding-bottom: 20px;
-
-   }
-   h2{
-       font-size: 45px;
-   }
-   #paragrafo{
-       font-size: 25px
-}
-.botaozao{
-    height: 75px;
-    width: 160px;
-    font-size: 22px;
-    padding-top: 20px ;
-}
 }
