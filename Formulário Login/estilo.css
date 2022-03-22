@@ -7,7 +7,99 @@
 body{
     font-family: 'Exo 2', sans-serif;
     margin: 0;
-    background: url(https://i.pinimg.com/originals/4a/94/26/4a94268541d7a0ed95a8be5138e8a288.jpg);
     line-height: 1.4;
     font-weight: 400;
 }
+body::before{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-white);
+    background-image: linear-gradient(115deg, rgba(58,58,158), rgba(136,136,206,0.7)), url(https://i.pinimg.com/originals/4a/94/26/4a94268541d7a0ed95a8be5138e8a288.jpg);
+}
+h1{
+    font-weight: 400;
+    line-height: 1.4;
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+label{
+    display: flex;
+    margin-bottom: 0.5rem;
+    align-items: center;
+    font-size: 1.125rem;
+    color: gray;
+    margin-top: 15px;
+    margin-left: 0px;
+}
+#forgot-password{
+    margin-left: 10px;
+}
+
+button{
+    border: none;
+    border-radius: 1.125rem;
+    font-size: 25px;
+    font-family: inherit;
+    margin: 0;
+    line-height: inherit;
+    cursor: pointer;
+    height: 55px;
+    width: 157px;
+    margin-left:60px;
+    margin-top: 40px;
+
+}
+button:hover{
+   background-color: #cccccc;
+}
+.container{
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+}
+header{
+    padding: 0.0625rem;
+    margin-bottom: 1.875rem;
+}
+.text-center{
+    text-align: center;
+}
+form{
+    padding-top: 15px;
+    padding: 2.5rem;
+    border-radius: 10px;
+    background-color: var(--color-white);
+    width: 360px;
+    height: 400px;
+    margin-left: 760px;
+ 
+    
+}
+.form-control{
+    left: 35px;
+    display: block;
+    width: 95%;
+    height: 2.375rem;
+    padding: 0.375rem, 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.55rem;
+    padding-left: 20px;
+    
+}
+#senha{
+    margin-top: 15px;
+}
+#criar-conta{
+    margin-left: 877px;
+    color:white;
+    
+}
+
